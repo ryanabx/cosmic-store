@@ -73,6 +73,7 @@ default = [
     "wgpu",
     "wayland",
     "xdg-portal",
+    "rpm-ostree",
 ]
 a11y = ["libcosmic/a11y"]
 dbus-config = ["libcosmic/dbus-config"]
@@ -83,6 +84,7 @@ logind = ["dep:logind-zbus", "dep:zbus"]
 notify = ["dep:notify-rust"]
 packagekit = ["dep:packagekit-zbus"]
 pkgar = []
+rpm-ostree = []
 single-instance = ["libcosmic/single-instance"]
 wayland = ["libcosmic/wayland", "dep:cosmic-panel-config"]
 wgpu = ["libcosmic/wgpu"]
